@@ -7,3 +7,8 @@ password :
 run following command :
 1. composer install
 2. php artisan migrate:refresh
+
+== ADMIN ACCESS ==
+url : {{BASE_URL}}/login-admin
+username : admin
+password : 123456
