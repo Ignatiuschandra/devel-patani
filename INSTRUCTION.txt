@@ -6,7 +6,7 @@ password :
 == CONFIG & MIGRATION ==
 run following command :
 1. composer install
-2. php artisan migrate:refresh
+2. php artisan migrate:refresh --seed
 
 == ADMIN ACCESS ==
 url : {{BASE_URL}}/login-admin
