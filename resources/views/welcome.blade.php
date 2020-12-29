@@ -182,7 +182,7 @@
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="services-col">
               <h2 class="title"><a href="{{ url('/rent') }}">Rental</a></h2>
-              <a href="#">
+              <a href="{{ url('/rent') }}">
                 <div class="img">
                   <img src="{{ asset('assets/img/rental.jpg') }}" alt="" class="img-fluid">
                 </div>
